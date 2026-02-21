@@ -1,0 +1,56 @@
+.audit-view h1 { margin-bottom: 0.5rem; }
+.audit-view p { color: #6b7280; margin-bottom: 2rem; }
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border-left: 2px solid #e5e7eb;
+  margin-left: 1rem;
+  padding-left: 1.5rem;
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.timeline-icon {
+  position: absolute;
+  left: -2.05rem;
+  background: white;
+  padding: 0.25rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline-content {
+  background: white;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid #f3f4f6;
+}
+
+.log-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.log-date {
+  color: #9ca3af;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.log-action {
+  color: #374151;
+  margin: 0;
+  font-size: 1rem;
+}
