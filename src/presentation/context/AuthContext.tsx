@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useContext, useState, useEffect } from 'react';
 
 interface UserInfo {
   id: string;
@@ -22,7 +22,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     try {
       const saved = localStorage.getItem('user_data');
       return saved ? JSON.parse(saved) : null;
-    } catch (error) {
+    } catch {
       return null;
     }
   });

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useAuditLogs } from '../hooks/useAuditLogs';
-import { Clock, User as UserIcon, Activity } from 'lucide-react';
+import { Clock, Activity } from 'lucide-react';
 import '../styles/AuditLogs.css';
 
 const AuditLogsView: React.FC = () => {
